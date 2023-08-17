@@ -1,0 +1,10 @@
+<!-- <p>accordian-data works!</p> -->
+
+
+<div class="card flex justify-content-center" >
+    <p-accordion *ngFor="let data of accordianData">
+        <p-accordionTab [header]='data.header'>
+            <p>{{data.section}}</p>
+        </p-accordionTab>
+    </p-accordion>
+</div>
